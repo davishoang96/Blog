@@ -71,8 +71,8 @@ namespace Blog.Database.Migrations
                 columns: new[] { "Id", "Body", "CategoryId", "Description", "IsDeleted", "ModifiedDate", "PublishDate", "Title" },
                 values: new object[,]
                 {
-                    { 1, "Test", null, "Test", null, new DateTime(2024, 8, 13, 19, 22, 47, 247, DateTimeKind.Local).AddTicks(9585), new DateTime(2024, 8, 13, 19, 22, 47, 247, DateTimeKind.Local).AddTicks(9595), "Make the world better" },
-                    { 2, "Test", null, "Test", null, new DateTime(2024, 8, 13, 19, 22, 47, 247, DateTimeKind.Local).AddTicks(9597), new DateTime(2024, 8, 13, 19, 22, 47, 247, DateTimeKind.Local).AddTicks(9598), "AI take over the world" }
+                    { 1, "Test", null, "Test", null, new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8680), new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8710), "Make the world better" },
+                    { 2, "Test", null, "Test", null, new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8720), new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8720), "AI take over the world" }
                 });
 
             migrationBuilder.CreateIndex(

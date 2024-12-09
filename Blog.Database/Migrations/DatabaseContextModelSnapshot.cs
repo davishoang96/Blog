@@ -15,7 +15,7 @@ namespace Blog.Database.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "8.0.7");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.11");
 
             modelBuilder.Entity("Blog.Database.Models.Category", b =>
                 {
@@ -78,8 +78,8 @@ namespace Blog.Database.Migrations
                             Id = 1,
                             Body = "Test",
                             Description = "Test",
-                            ModifiedDate = new DateTime(2024, 8, 14, 21, 41, 10, 748, DateTimeKind.Local).AddTicks(1868),
-                            PublishDate = new DateTime(2024, 8, 14, 21, 41, 10, 748, DateTimeKind.Local).AddTicks(1877),
+                            ModifiedDate = new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8680),
+                            PublishDate = new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8710),
                             Title = "Make the world better"
                         },
                         new
@@ -87,8 +87,8 @@ namespace Blog.Database.Migrations
                             Id = 2,
                             Body = "Test",
                             Description = "Test",
-                            ModifiedDate = new DateTime(2024, 8, 14, 21, 41, 10, 748, DateTimeKind.Local).AddTicks(1879),
-                            PublishDate = new DateTime(2024, 8, 14, 21, 41, 10, 748, DateTimeKind.Local).AddTicks(1879),
+                            ModifiedDate = new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8720),
+                            PublishDate = new DateTime(2024, 12, 9, 20, 34, 51, 446, DateTimeKind.Local).AddTicks(8720),
                             Title = "AI take over the world"
                         });
                 });

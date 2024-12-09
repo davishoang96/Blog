@@ -63,3 +63,7 @@ Thumbs.db
 # Coverage directories for test tools
 coverage/
 
+# sqlite database files
+*.db
+*.db-shm
+*.db-wal

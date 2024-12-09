@@ -17,11 +17,11 @@ public class WorkLogRepository : IWorkLogRepository
 
    public async Task<bool> ClearAllWorkLogs()
    {
-       var res = await db.WorkLogs.ExecuteDeleteAsync();
-       if (res < 0)
-       {
-           return false;
-       }
+       // var res = await db.WorkLogs.ExecuteDeleteAsync();
+       // if (res < 0)
+       // {
+       //     return false;
+       // }
 
        return true;
    }
