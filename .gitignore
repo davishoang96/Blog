@@ -17,11 +17,6 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# ASP.NET Core secrets
-**/appsettings.*.json
-!appsettings.json
-appsettings.Development.json
-
 # React specific
 node_modules/
 build/
@@ -44,6 +39,7 @@ Thumbs.db
 
 # IDE specific files
 .vscode/
+.vs/
 .idea/
 *.code-workspace
 
